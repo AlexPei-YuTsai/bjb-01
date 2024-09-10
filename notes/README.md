@@ -32,9 +32,30 @@
   - **Security**:
     - The Oak virtual machine can also be edited to restrict program access to certain levels of your computer. For example, the access code to your computer's hard disk or network card can be replaced with an error message to veto any dangerous code you're not comfortable running. Custom permissions can also be configured on a case-by-base basis with the right implementation.
     - Java also does a lot of checks to make sure users don't screw themselves over.
+### 1.3 The World Wide Web
+- a
+
+### 1.4 Introducing the Java Programming Language
+- a
+
+### 1.5 The Function "main"
+- a
+
+### 1.6 Method Calls
+- a
+
+### 1.7 A Word about Code Format
+- a
 
 ## Book Notes
-
-
-## Additional Reading Notes
+This section covers the notes I took for the first chapter of Herbert Schildt's [Java - A Beginner's Guide Ninth Edition](https://www.amazon.com/Java-Beginners-Guide-Herbert-Schildt/dp/1260463559), which covers an overview of Java, Object-Oriented Programming, the Java Development Kit, and the fundamentals of programming in Java. This book covers Java up to JDK 17 (Current version as of the writing of this README is Java SE 22), so hopefully the information I have here doesn't become outdated or deprecated too quickly.
+### Java Origins
+### Object-Oriented Programming (OOP)
+### Installing Java For Real
+- In order to compile and run Java stuff, you need a Java Development Kit (JDK). Following the guide this book provides, I downloaded JDK and Java SE 22 as that was the latest release at the time of accessing the [official Oracle Java Downloads page](https://www.oracle.com/java/technologies/downloads/#jdk22-windows) (I did look at the [archives](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html) for 17 and 21, but Oracle recommended against using older versions. The code in this book should still apply, though. Side note, I don't remember when I downloaded JDK 17, but hey version fidelity).
+  - I downloaded the x64 MSI installer and allowed JDK to do its thing, following the [instructions here](https://docs.oracle.com/en/java/javase/22/install/installation-jdk-microsoft-windows-platforms.html#GUID-772189CD-74DA-448C-A693-E94FE5F83545) and letting the installation wizard handle what it needs to handle. Seems like it also handled all the binaries, so that's something I don't have to worry about.
+  - ![image](https://github.com/user-attachments/assets/e85aeb60-a4e9-4533-ad26-b7236cfba3ae)
+  - The `java` interpreter/application launcher and `javac` compiler as well as another other programs can be found in the `"C:\Program Files\Common Files\Oracle\Java"` path or the `"C:\Program Files\Java\jdk-22\bin"` path. Seems straightforward enough.
+- I personally have more experience doing stuff in VSCode. However, instead of downloading a bunch of plugins for Java development, it seems like more standard practice to get a proper Java IDE if you don't want to ---
+### Hello World'ing in Java
 
