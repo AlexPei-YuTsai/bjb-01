@@ -1,5 +1,10 @@
 # Java Module 1 - Introduction to the Java Programming Language - NOTES
 
+### Contents
+- [Lecture Commentary Notes](#Lecture-Commentary-Notes)
+- [Book Notes](#Book-Notes)
+- [Additional Reading Notes](#Additional-Reading-Notes)
+
 ## Lecture Commentary Notes
 ### 1.1 Prologue
 - Keys to a successful program:
