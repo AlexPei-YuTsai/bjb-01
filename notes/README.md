@@ -56,6 +56,8 @@ This section covers the notes I took for the first chapter of Herbert Schildt's 
   - I downloaded the x64 MSI installer and allowed JDK to do its thing, following the [instructions here](https://docs.oracle.com/en/java/javase/22/install/installation-jdk-microsoft-windows-platforms.html#GUID-772189CD-74DA-448C-A693-E94FE5F83545) and letting the installation wizard handle what it needs to handle. Seems like it also handled all the binaries, so that's something I don't have to worry about.
   - ![image](https://github.com/user-attachments/assets/e85aeb60-a4e9-4533-ad26-b7236cfba3ae)
   - The `java` interpreter/application launcher and `javac` compiler as well as another other programs can be found in the `"C:\Program Files\Common Files\Oracle\Java"` path or the `"C:\Program Files\Java\jdk-22\bin"` path. Seems straightforward enough.
-- I personally have more experience doing stuff in VSCode. However, instead of downloading a bunch of plugins for Java development, it seems like more standard practice to get a proper Java IDE if you don't want to ---
+  - I also followed [Mosh's Java Tutorial](https://www.youtube.com/watch?v=eIrMbAQSU34) to make sure that I can edit and compile Java code on my machine.
+- I personally have more experience doing stuff in VSCode. However, instead of downloading a bunch of plugins for Java development, it seemed more like standard practice to get a proper Java IDE like IntelliJ or NetBeans.
+  - As I followed Mosh's tutorial, I downloaded and will be using the community build of IntelliJ for the duration of this course. Don't forget to restart your machine after adding the necessary `bin` paths.
 ### Hello World'ing in Java
 
